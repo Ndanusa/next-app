@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
                </div>
                <div>
                   <button className="bg-zinc-800 px-5 py-1 rounded-md text-zinc-300 cursor-pointer hover:bg-zinc-700 transition duration-300">
-                     Learn more
+                     Learn more{" "}
                   </button>
                </div>
             </div>
