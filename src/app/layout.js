@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Image from "next/image";
+import Link from "next/link";
 
 const geistSans = Geist({
    variable: "--font-geist-sans",
@@ -21,6 +23,26 @@ export default function RootLayout({ children }) {
       <html lang="en">
          <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+            <div className="flex gap-4 px-10 py-5 justify-between border-b border-zinc-800">
+               <div>
+                  <Image
+                     src={"/next.svg"}
+                     width={100}
+                     height={38}
+                     className="dark:invert"
+                  />
+               </div>
+               <div className="flex gap-5">
+                  <Link href={"/"}>Home</Link>
+                  <Link href={"/about"}>About</Link>
+                  <Link href={"/contact"}>Contact</Link>
+               </div>
+               <div>
+                  <button className="bg-zinc-800 px-5 py-1 rounded-md text-zinc-300 cursor-pointer hover:bg-zinc-700 transition duration-300">
+                     Learn more
+                  </button>
+               </div>
+            </div>
             {children}
          </body>
       </html>
