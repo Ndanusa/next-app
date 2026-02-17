@@ -36,6 +36,7 @@ export default function RootLayout({ children }) {
                   <Link href={"/"}>Home</Link>
                   <Link href={"/about"}>About</Link>
                   <Link href={"/contact"}>Contact</Link>
+                  <Link href={`/users`}>Users</Link>
                </div>
                <div>
                   <button className="bg-zinc-800 px-5 py-1 rounded-md text-zinc-300 cursor-pointer hover:bg-zinc-700 transition duration-300">
