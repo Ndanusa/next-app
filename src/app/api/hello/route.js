@@ -1,5 +1,3 @@
-import { NextResponse } from "next/server";
-
 export async function GET() {
-   return NextResponse.json({ message: "api route" });
+   return Response.json({ message: "api route" });
 }
