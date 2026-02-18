@@ -1,4 +1,9 @@
+"use client";
+
+import { useState } from "react";
+
 function Contact() {
-   return <div>This is the contact page</div>;
+   const [a, setA] = useState(0);
+   return <div></div>;
 }
 export default Contact;

@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-   title: "Display",
+   title: "Chatting app",
    description: "Chatting app with next js",
+   keywords: "chat, interractions friends, networking",
 };
 
 export default function RootLayout({ children }) {
