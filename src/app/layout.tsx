@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 const geistSans = Geist({
    variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
                      width={100}
                      height={38}
                      className="dark:invert"
+                     alt={`next logo`}
                   />
                </div>
                <div className="flex gap-5">
