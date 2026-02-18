@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 export default async function Page() {
    const response = await fetch("http:localhost:3400/users");
