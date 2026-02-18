@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { UserInterface } from "../../../../.next/dev/interfaces/interface";
+import { UserInterface } from "../../interfaces/interface";
 import React from "react";
 
 export default async function UserPage({ params }) {
