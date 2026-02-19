@@ -8,6 +8,7 @@ export default function Home() {
             "min-h-screen bg-gradient-to-bt from-purple-50 to-purple-100 flex items-center justify-center"
          }>
          <div className={`container mx-auto px-4 py-16`}>
+            2
             <div className={`text-center`}>
                <h1 className={`text-5xl font-bold text-gray-900 mb-6`}>
                   Inventory Management
