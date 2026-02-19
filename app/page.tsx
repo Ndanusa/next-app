@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/dist/client/link";
 
 export default function Home() {
   return (
@@ -11,7 +12,9 @@ export default function Home() {
           <p className={`text-xl text-gray-900 mb-8 max-w-2xl mx-auto`}>
               Streamline your inventory tracking with our powerful, easy-to-use management system. track products, monitor stock levels, and gain valuable insights
           </p>
-
+          <div className={`flex gap-4 justify-center`}>
+              <Link href={`/sign-in`} className={`bg-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors`}>Sign In</Link>
+          </div>
         </div>
       </div>
     </div>
