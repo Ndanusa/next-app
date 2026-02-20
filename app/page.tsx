@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/dist/client/link";
 export default function Home() {
+   console.log("this is a client component");
    return (
       <div
          className={
