@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Header() {
    return (
       <div className="px-10 py-5 bg-indigo-50 shadow-md shadow-gray-100">
@@ -6,25 +7,23 @@ export default function Header() {
             <Image src={`/next.svg`} alt="next logo" width={120} height={60} />
             <ul className="flex items-center gap-10 text-indigo-950 ">
                <li>
-                  <a href="/">Home</a>
+                  <Link href="/main">Home</Link>
                </li>
                <li>
-                  <a href="/about">About</a>
+                  <Link href="/about">About</Link>
                </li>
                <li>
-                  <a href="/users">Users</a>
+                  <Link href="/users">Users</Link>
                </li>
                <li>
-                  <a href="/contact">Contact</a>
+                  <Link href="/contact">Contact</Link>
                </li>
                <li>
-                  <a href="/projects">Projects</a>
+                  <Link href="/projects">Projects</Link>
                </li>
             </ul>
             <div>
-               <button
-                  className="px-4 py-2 text-white bg-indigo-600 rounded-2xl"
-                  style={{ cornerShape: "superellipse(2)" }}>
+               <button className="px-4 py-2 text-white bg-indigo-600 rounded-lg">
                   Learn more
                </button>
             </div>

@@ -20,12 +20,12 @@ export default function Home() {
                <div className={`flex gap-4 justify-center`}>
                   <Link
                      href={`/sign-in`}
-                     className={`bg-indigo-600 text-white px-8 py-3 rounded-2xl font-semibold hover:bg-indigo-700 transition-colors`}>
+                     className={`bg-indigo-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition-colors`}>
                      Sign In
                   </Link>
                   <Link
                      href={`#`}
-                     className={`bg-white text-indigo-600 px-8 py-3 rounded-2xl font-semibold border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all`}>
+                     className={`bg-white text-indigo-600 px-8 py-3 rounded-lg font-semibold border-2 border-indigo-600 hover:bg-indigo-600 hover:text-white transition-all`}>
                      Learn More
                   </Link>
                </div>
